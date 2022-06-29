@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package version="0.0.1" uuid="oh_pepper">
+  <names>
+    <name lang="en_US">oh_pepper</name>
+  </names>
+  <descriptions>
+    <description lang="en_US">Pepper @ Bar -OH</description>
+  </descriptions>
+  <supportedLanguages>
+    <language>en_US</language>
+  </supportedLanguages>
+  <descriptionLanguages>
+    <language>en_US</language>
+  </descriptionLanguages>
+  <contents>
+    <dialogContent topicName="oh_pepper" typeVersion="1.0">
+      <topic path="topics/oh_pepper.top" language="en_US"/>
+    </dialogContent>
+  </contents>
+  <requirements>
+    <naoqiRequirement minVersion="2.5"/>
+    <robotRequirement model="JULIETTE"/>
+  </requirements>
+</package>
