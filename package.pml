@@ -5,4 +5,5 @@
     <File src="icon.png" />
     <File src="topics/oh_pepper.top" />
   </Resources>
+  <qipython name="oh_pepper" />
 </Package>

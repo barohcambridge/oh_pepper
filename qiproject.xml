@@ -1,0 +1,5 @@
+<project version="3">
+  <qipython name="oh_pepper">
+    <script src="oh_pepper.py" />
+  </qipython>
+</project>

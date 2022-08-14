@@ -17,6 +17,13 @@
       <topic path="topics/oh_pepper.top" language="en_US"/>
     </dialogContent>
   </contents>
+  <services>
+    <service name="oh_pepper" autorun="true"
+	     execStart="./python bin/oh_pepper.py" />
+    <executableFiles>
+      <file path="python" />
+    </executableFiles>
+  </services>
   <requirements>
     <naoqiRequirement minVersion="2.5"/>
     <robotRequirement model="JULIETTE"/>
